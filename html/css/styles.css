@@ -115,3 +115,14 @@ section{
     border-radius: 100px;
     background-color: #bcc1c6;
 }
+
+.project{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button{
+    border-radius: 50%;
+    width: fit-content;
+    margin: 10px;
+}

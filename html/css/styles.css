@@ -101,3 +101,17 @@ section{
     border: solid;
     font-size: larger;
 }
+
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-text{
+    color:black
+}
+
+.card{
+    border-radius: 100px;
+    background-color: #bcc1c6;
+}

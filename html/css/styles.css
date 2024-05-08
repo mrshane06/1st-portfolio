@@ -6,12 +6,35 @@
     box-sizing:border-box; 
 }
 
+#header{
+    color: white
+}
+#about{
+    color: white
+}
+#projects{
+    color: white
+}
+#resume{
+    color: white
+}
+#testimonials{
+    color: white
+}
+#contact-info{
+    color: white
+}
+
 body {
     background-image: linear-gradient(to right ,#BF2BE4 0%, #36383C 38% , #109D04 100%);
 }
 
 nav{
     background-image: linear-gradient(to right ,#BF2BE4 0%, #36383C 38% , #109D04 100%);
+}
+
+.navbar{
+    position: sticky;
 }
 
 .nav-link{
@@ -60,4 +83,21 @@ footer{
     font-size: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.img{
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    display: block;
+}
+
+section{
+    display:flex;
+    justify-content:space-evenly; 
+}
+
+.about{
+    border: solid;
+    font-size: larger;
 }

@@ -112,7 +112,7 @@ section{
 }
 
 .card{
-    border-radius: 100px;
+    border-radius: 10px;
     background-color: #bcc1c6;
 }
 
@@ -122,7 +122,29 @@ section{
 }
 
 #button{
-    border-radius: 50%;
+    border-radius: 30px;
     width: fit-content;
     margin: 10px;
+}
+
+.test1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.test2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#card-img-top1{
+    padding: 10px;
+    height: 230px;
+    width: 250px;
+}
+
+#card-img-top2{
+    padding: 10px;
+    height: 330px;
+    width: 250px;
 }

@@ -7,22 +7,22 @@
 }
 
 #header{
-    color: white
+    color: white;
 }
 #about{
-    color: white
+    color: white;
 }
 #projects{
-    color: white
+    color: white;
 }
 #resume{
-    color: white
+    color: white;
 }
 #testimonials{
-    color: white
+    color: white;
 }
 #contact-info{
-    color: white
+    color: white;
 }
 
 body {
@@ -42,7 +42,7 @@ nav{
 }
 
 hr{
-    color:black
+    color:black;
 }
 
 img{
@@ -147,4 +147,35 @@ section{
     padding: 10px;
     height: 330px;
     width: 250px;
+}
+
+.myWhatsapp{
+    width: 15px;
+    height: 15px;
+}
+
+.house{
+    width: 15px;
+    height: 15px;
+}
+
+.insta{
+    width: 15px;
+    height: 15px;
+}
+
+.mail{
+    width: 15px;
+    height: 15px;
+}
+
+.git{
+    width: 15px;
+    height: 15px;
+}
+
+#bam{
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

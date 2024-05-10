@@ -45,9 +45,14 @@ hr{
     color:black;
 }
 
-img{
+#logo{
     width: 60px;
     height: 60px;
+}
+
+img{
+    width: 130px;
+    height: 130px;
 }
 
 .img-thumbnail{

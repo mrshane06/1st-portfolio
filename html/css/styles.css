@@ -218,7 +218,7 @@ a {
     justify-content:center;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:300px) {
     section{
         display: inline;
         flex-wrap: wrap;

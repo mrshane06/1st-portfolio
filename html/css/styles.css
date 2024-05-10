@@ -94,7 +94,7 @@ footer{
 
 section{
     display:flex;
-    justify-content:space-evenly; 
+    justify-content:space-evenly;
 }
 
 .about{
@@ -159,23 +159,67 @@ section{
     height: 15px;
 }
 
-.insta{
-    width: 15px;
-    height: 15px;
-}
-
 .mail{
     width: 15px;
     height: 15px;
 }
 
-.git{
+.linkedin{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.insta1{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.insta2{
     width: 15px;
     height: 15px;
+}
+
+.git1{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.git2{
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 #bam{
     margin-left: auto;
     margin-right: auto;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sub{
+    color: rgb(80, 78, 78);
+}
+
+.links{
+    display:flex;
+    justify-content:center;
+}
+
+@media only screen and (max-width:600px) {
+    section{
+        display: inline;
+        flex-wrap: wrap;
+    }
+    
+    .cont{
+        flex-wrap: wrap;
+    }
 }
